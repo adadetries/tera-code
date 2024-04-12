@@ -9,7 +9,7 @@ on:
         default: "./infra"
   push:
     branches:
-      - main
+      - develop
 
 jobs:
     deploy-infrastructure:
